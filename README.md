@@ -278,7 +278,3 @@ This project is licensed under the MIT License.
 **Built with ❤️ for autonomous and intelligent movie analysis**
 
 ---
-
-If you want, I can **also make a smaller, eye-catching version for GitHub front page** that emphasizes **Agentic AI, autonomous reasoning, and deep analytics**—perfect for attracting contributors or hackathon judges.
-
-Do you want me to do that next?
