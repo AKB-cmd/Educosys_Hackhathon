@@ -32,22 +32,19 @@ An advanced AI-powered movie analysis and recommendation system with comprehensi
 ## 📁 Project Structure
 
 ```
-enhanced-movie-agent/
-│
-├── movie_agent/
-│   ├── __init__.py                # Package initialization
-│   ├── data_processing.py         # Data cleaning, validation, enrichment
-│   ├── analysis.py                # AI analysis and insights
-│   ├── recommendations.py         # Recommendation engine
-│   └── run_agent.py               # Pipeline orchestration
-│
-├── app.py                         # Streamlit web interface
-├── requirements.txt               # Python dependencies
-├── README.md                      # This file
-├── .env.example                   # Environment variables template
-├── .gitignore                     # Git ignore rules
-└── assets/
-    └── imdb_top_1000.csv         # Sample dataset
+.
+├── __init__.py
+├── analysis.py
+├── app.py
+├── data_processing.py
+├── recommendations.py
+├── run_agent.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env.example
+└── IMDb dataset
+
 ```
 
 ## 🚀 Quick Start
