@@ -134,32 +134,6 @@ python -m movie_agent.run_agent
    * **Deep Insights**: Visualizations and word clouds
    * **Dataset**: Full analyzed movie data
 
-### Python API
-
-```python
-from movie_agent import (
-    clean_and_prepare_data,
-    fetch_movies,
-    categorize_movies,
-    analyze_movies,
-    recommend_movies,
-    run_enhanced_agent
-)
-
-# Run the complete autonomous pipeline
-final_state, actions_log = run_enhanced_agent(
-    mode="deep",
-    user_preferences={
-        "preferred_genres": ["Drama", "Thriller"],
-        "min_rating": 7.0
-    }
-)
-
-# Access results
-movies = final_state["movies"]
-recommendations = final_state["recommendations"]
-genre_analysis = final_state["genre_analysis"]
-```
 
 ---
 
